@@ -1,0 +1,124 @@
+.buy-credits-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #ccc;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #9aa0a6;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.plan-card {
+  background: #1c1c1e;
+  border-radius: 16px;
+  padding: 25px;
+  border: 1px solid #333;
+  animation: fadeInUp 0.6s ease;
+}
+
+.plan-card.premium {
+  border-color: #6741ff;
+  background: rgba(103, 65, 255, 0.12);
+}
+
+.plan-title {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.plan-credits {
+  font-size: 18px;
+  color: #bbb;
+  margin-bottom: 12px;
+}
+
+.plan-access {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.plan-btn {
+  background: #333;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.plan-btn:hover {
+  background: #444;
+}
+
+.plan-btn.premium {
+  background: #6b4dff;
+}
+
+.plan-btn.premium:hover {
+  background: #7b63ff;
+}
+
+.credits-refresh-box {
+  margin-top: 40px;
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+
+.refresh-btn {
+  background: #6b4dff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #777;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeInUp {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
